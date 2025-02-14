@@ -31,7 +31,7 @@ ALO
 @@ - name: Run markdown lint                                                                       @@
 @@   run:  |                                                                                       @@  
 @@     npm install remark-cli remark-preset-lint-markdown-style-guide                              @@ 
-@@    npx remark . --use remark-preset-lint-markdown-style-guide --frail                           @@
+@@     npx remark . --use remark-preset-lint-markdown-style-guide --frail                          @@
 ```
 #####
 ##### For other STEPS and corrected files, please see CI.YML workflow file in tee MAIN and CI branches.
