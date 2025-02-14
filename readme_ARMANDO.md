@@ -28,7 +28,7 @@ ALO
 ##### I made some corrections with the followinfg changes or something similar:
 #####
 ```diff
-+ - name: Run markdown lint
+@@ - name: Run markdown lint@@
 +   run:  |
 +     npm install remark-cli remark-preset-lint-markdown-style-guide 
 +     npx remark . --use remark-preset-lint-markdown-style-guide --frail
