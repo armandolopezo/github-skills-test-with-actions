@@ -12,3 +12,5 @@ ALO
 + workflow_dispatch: , push: , contents: , get_current_step: , on_start: (second level - 2 spaces)
 + branches: [after push] , name: runs-on: steps: outputs [after get_current_step:]   (third level - 4 spaces after beginning)
 + - name: , - id: [after steps:]    (fourth level - 6 spaces after beginning)
+
+
