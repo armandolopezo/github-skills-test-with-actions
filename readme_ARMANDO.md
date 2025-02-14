@@ -14,4 +14,14 @@ ALO
 + - name: , - id: [after steps:]    (fourth level - 6 spaces after beginning)
 ```
 ##### I also invest some or a lot of time correcting a file related with a STEP in the course
-##### TEST WITH ACTIONS from GITHUB SKILLS 
+##### TEST WITH ACTIONS from GITHUB SKILLS . The STEPS of the course were followed in the following PATH: 
+##### github-skills-test-with-actions/.github/steps/   and I had to correct the code in the STEP 7 in the file
+##### 1-add-a-test-workflow.md  with the following content:
+#####
+```diff
+- - name: Run markdown lint
+-   run: |
+-     npm install remark-cli remark-preset-lint-consistent
+-     npx remark . --use remark-preset-lint-consistent --frail
+```
+
