@@ -10,3 +10,5 @@ ALO
 ! EXAMPLE:
 + Workflow name: , on: , permissions: , jobs: (first level before indentation of 2 spaces)
 + workflow_dispatch: , push: , contents: , get_current_step: , on_start: (second level - 2 spaces)
++ branches: [after push] , name: runs-on: steps: outputs [after get_current_step:]   (third level - 4 spaces after beginning)
++ 
